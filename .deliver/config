@@ -1,0 +1,8 @@
+APP="ed"
+BUILD_HOST="edeliver-vagrant"
+BUILD_USER="vagrant"
+BUILD_AT="/home/vagrant/build"
+
+PRODUCTION_HOSTS="edeliver-vagrant"
+PRODUCTION_USER="vagrant"
+DELIVER_TO="/opt/ed"
