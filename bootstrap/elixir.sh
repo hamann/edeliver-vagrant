@@ -1,7 +1,7 @@
 set -e -x
 
 ERLANG_VERSION="1:18.0"
-ELIXIR_VERSION="1.0.5-1"
+ELIXIR_VERSION="1.0.4-1"
 
 sudo su -c 'echo "deb http://packages.erlang-solutions.com/debian jessie contrib" >> /etc/apt/sources.list.d/erlang.list'
 
