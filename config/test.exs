@@ -9,6 +9,9 @@ config :ed, Ed.Endpoint,
 # Print only warnings and errors during test
 config :logger, level: :warn
 
+# Set a higher stacktrace during test
+config :phoenix, :stacktrace_depth, 20
+
 # Configure your database
 config :ed, Ed.Repo,
   adapter: Ecto.Adapters.Postgres,

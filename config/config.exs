@@ -9,8 +9,8 @@ use Mix.Config
 config :ed, Ed.Endpoint,
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
-  secret_key_base: "SXyyEevkSQt4kUdYWV2nODXWrMKqwDn4fFl5wWM3vVA/U3wv/XjaZa8FqBjODRlW",
-  render_errors: [default_format: "html"],
+  secret_key_base: "H+mIB1CLrTWK9zf++8a34MR8dj29cBjfa4uMHO/FtsU84jtm8UL0TcMTaQYbiUmm",
+  render_errors: [accepts: ~w(html json)],
   pubsub: [name: Ed.PubSub,
            adapter: Phoenix.PubSub.PG2]
 

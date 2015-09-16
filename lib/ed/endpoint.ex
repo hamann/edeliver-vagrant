@@ -33,7 +33,7 @@ defmodule Ed.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_ed_key",
-    signing_salt: "MLX+ZaxL"
+    signing_salt: "+8GoyXIQ"
 
   plug Ed.Router
 end

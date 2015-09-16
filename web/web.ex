@@ -28,7 +28,7 @@ defmodule Ed.Web do
 
       alias Ed.Repo
       import Ecto.Model
-      import Ecto.Query, only: [from: 2]
+      import Ecto.Query, only: [from: 1, from: 2]
 
       import Ed.Router.Helpers
     end
@@ -60,7 +60,7 @@ defmodule Ed.Web do
 
       alias Ed.Repo
       import Ecto.Model
-      import Ecto.Query, only: [from: 2]
+      import Ecto.Query, only: [from: 1, from: 2]
 
     end
   end
