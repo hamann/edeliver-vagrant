@@ -5,7 +5,7 @@ BUILD_AT="/home/vagrant/build"
 
 PRODUCTION_HOSTS="edeliver-vagrant"
 PRODUCTION_USER="vagrant"
-DELIVER_TO="/opt/ed"
+DELIVER_TO="/home/vagrant/deliver"
 
 LINK_SYS_CONFIG="/home/vagrant/.secrets/ed/prod.config"
 RELEASE_STORE=vagrant@edeliver-vagrant:/home/vagrant/releases
