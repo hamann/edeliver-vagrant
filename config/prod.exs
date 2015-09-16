@@ -49,3 +49,5 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
+config :ed, Ed.Repo,
+  adapter: Ecto.Adapters.Postgres
