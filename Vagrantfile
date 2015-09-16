@@ -18,4 +18,5 @@ Vagrant.configure(2) do |config|
    config.vm.provision 'shell', path: 'bootstrap/postgresql.sh', privileged: false
    config.vm.provision 'shell', path: 'bootstrap/elixir.sh', privileged: false
    config.vm.provision 'shell', path: 'bootstrap/nodejs.sh', privileged: false
+   config.vm.provision 'shell', path: 'bootstrap/secrets.sh', privileged: false
 end
