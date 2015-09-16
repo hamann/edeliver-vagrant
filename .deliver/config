@@ -9,3 +9,14 @@ DELIVER_TO="/home/vagrant/deliver"
 
 LINK_SYS_CONFIG="/home/vagrant/.secrets/ed/prod.config"
 RELEASE_STORE=vagrant@edeliver-vagrant:/home/vagrant/releases
+
+pre_erlang_generate_release() {
+  status "Generating assets using npm"
+  __remote "
+    set -e
+    [ -f ~/.profile ] && source ~/.profile
+    cd $BUILD_AT $SILENCE
+    npm install $SILENCE
+    npm run build $SILENCE
+  "
+}
