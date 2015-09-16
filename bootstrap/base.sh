@@ -14,7 +14,6 @@ echo "vagrant" | chsh -s /usr/bin/zsh
 echo 'export PATH=$PATH:./node_modules/.bin' >> ~/.zshrc
 echo 'export PGUSER="ed_web"' >> ~/.zshrc
 echo 'export PGDATABASE="ed_production"' >> ~/.zshrc
-echo 'export PORT=4000' >> ~/.zshrc
 
 cat << EOF | tee /home/vagrant/.zpreztorc
 zstyle ':prezto:*:*' color 'yes'
