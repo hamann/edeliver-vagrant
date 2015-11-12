@@ -17,8 +17,16 @@ defmodule Ed.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [mod: {Ed, []},
-     applications: [:phoenix, :phoenix_html, :cowboy, :logger,
-                    :phoenix_ecto, :postgrex]]
+     applications: [
+       :phoenix,
+       :phoenix_html,
+       :cowboy,
+       :logger,
+       :phoenix_ecto,
+       :postgrex,
+       :edeliver
+     ]
+   ]
   end
 
   # Specifies which paths to compile per environment
