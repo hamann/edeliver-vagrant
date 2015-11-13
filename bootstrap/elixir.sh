@@ -18,7 +18,7 @@ EOF
 wget -q http://packages.erlang-solutions.com/debian/erlang_solutions.asc -O- | sudo su -c 'apt-key add -'
 
 sudo apt-get update
-sudo apt-get install erlang-base-hipe erlang-ssh erlang-src erlang-tools erlang-dev elixir=$ELIXIR_VERSION -y --force-yes
+sudo apt-get install esl-erlang elixir=$ELIXIR_VERSION -y --force-yes
 
 
 git clone https://github.com/ferd/erlang-history
