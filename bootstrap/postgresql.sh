@@ -1,6 +1,6 @@
 set -e -x
 
-POSTGRES_VERSION="9.4"
+POSTGRES_VERSION="9.5"
 DB_NAME="ed_production"
 DB_USER="ed_web"
 

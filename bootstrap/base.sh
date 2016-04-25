@@ -4,7 +4,7 @@ sudo su -c 'echo "deb http://ftp.de.debian.org/debian/ jessie-backports main" >>
 
 sudo apt-get update
 
-sudo apt-get install git-core build-essential tmux zsh inotify-tools vim -y --force-yes
+sudo apt-get install git-core build-essential tmux zsh inotify-tools vim unzip -y --force-yes
 
 git clone --recursive https://github.com/sorin-ionescu/prezto.git /home/vagrant/.zprezto
 cd /home/vagrant/.zprezto/runcoms
