@@ -30,7 +30,6 @@ stats_temp_directory = '/var/run/postgresql/$POSTGRES_VERSION-main.pg_stat_tmp'
 datestyle = 'iso, mdy'
 synchronous_commit = on
 fsync = on
-checkpoint_segments = 64
 checkpoint_completion_target = 0.9
 checkpoint_timeout = 300
 timezone = 'UTC'
